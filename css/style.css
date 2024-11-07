@@ -198,7 +198,7 @@ header .overlay {
 }
 
 header .background {
-  background-image: url("/imgs/portsitb.jpg");
+  background-image: url("./imgs/portsitb.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -396,7 +396,7 @@ header .overlay {
 }
 
 #count .background {
-  background-image: url(/imgs/count.jpg);
+  background-image: url(./imgs/count.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
