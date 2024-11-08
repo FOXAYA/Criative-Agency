@@ -18,3 +18,12 @@ window.addEventListener("load", function() {
   })
   
 }, false)
+
+
+
+ 
+new WOW().init();
+
+
+$(window).on('scroll', function() {
+});

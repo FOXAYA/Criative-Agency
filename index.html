@@ -8,8 +8,11 @@
 
     <!---------------------- Styles ---------------------->
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/mediaqueries.css">
+    <link rel="stylesheet" href="./css/mediaquery.css">
+    <link rel="stylesheet" href="./css/myanimation.css">
     <link rel="stylesheet" href="./css/animation.css">
+
+
 
     <!------------------ Font Awesome -------------------->
     <link rel="stylesheet" href="../fontawesome-free-6.6.0-web/css/all.min.css">
@@ -41,7 +44,7 @@
         <div class="overlay co-light"></div>
 
         <div class="home-container">
-            <div class="home-content col">
+            <div class="home-content wow bounceInDown" data-wow-duration="700ms" data-wow-delay="500ms" style="visibility: visible;">
                 <h5 class="special-h5">CREATIVE AGENCY</h5>
                 <h1 class="co-light">WE ARE <span class="special-span">CREATIVE</span> DESIGN AGENCY</h1>
                 <hr class="primary-hr co-primary">
@@ -72,7 +75,8 @@
 
     <!----------------- Our Services --------------------->
     <section id="services">
-        <div class="content col">
+        <div class="content col wow bounceInDown animated" data-wow-duration="700ms" data-wow-delay="500ms" style="visibility: visible;">
+
             <h5 class="special-h5">OUR SERVICES</h5>
             <h1 class="co-light">What We <span class="special-span">DO.</span></h1>
             <hr class="primary-hr">
@@ -181,7 +185,7 @@
                 <div class="card-4 count-card flex col">
                     <img src="./imgs/9-Team-Crew.png" class="icon" alt="">
                     <div class="tiles-box tiles-blue-3d">
-                        <p class="co-primary"><span class="counter" data-count-start="10" data-count-end="175" data-speed="10"></span>+</p>
+                        <p class="co-primary"><span class="counter" data-count-start="10" data-count-end="45" data-speed="10"></span>+</p>
                     </div>
                     <span class="co-light">Team Members</span>
                 </div>
@@ -191,7 +195,11 @@
 
     <!---------------------- Script ---------------------->
     <script src="../fontawesome-free-6.6.0-web/js/all.min.js"></script>
+   
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/wow.min.js"></script>
     <script src="./js/main.js"></script>
+
 </body>
 
 </html>
